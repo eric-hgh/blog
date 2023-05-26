@@ -123,6 +123,13 @@
   padding-top: 12px;
 }
 
+.VPNavBarSearch {
+  height: 36px;
+  padding: 0 10px;
+  background-color: var(--vp-c-bg-soft);
+  border-radius: 4px;
+}
+
 .image-container .image-src {
   left: 50%;
   right: auto;

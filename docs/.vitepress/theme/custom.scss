@@ -180,6 +180,14 @@ $myWidth: calc(var(--vp-sidebar-width) + $length--48);
 }
 
 
+.VPNavBarSearch{
+   height: 36px;
+   padding: 0 10px;
+   background-color:var(--vp-c-bg-soft) ;
+   border-radius: 4px;
+}
+
+
 .image-container .image-src{
   left: 50%;
   right: auto;
@@ -197,6 +205,8 @@ $myWidth: calc(var(--vp-sidebar-width) + $length--48);
     transform: translate(-50%, -45%);
   }
 }
+
+
 
 @media (min-width: 960px){
 
@@ -223,3 +233,5 @@ $myWidth: calc(var(--vp-sidebar-width) + $length--48);
   }
   
 }
+
+

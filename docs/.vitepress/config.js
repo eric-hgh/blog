@@ -100,10 +100,10 @@ export default {
       copyright: 'Copyright © 2019-present EricBlog'
     },
     // 设置编辑页面链接
-    editLink: {
-      pattern: 'https://github.com/eric-hgh',
-      text: 'Edit this page on GitHub'
-    },
+    // editLink: {
+    //   pattern: 'https://github.com/eric-hgh/blog',
+    //   text: 'Edit this page on GitHub'
+    // },
     // 设置上下篇文字
     docFooter: {
       prev: 'Previous page',
