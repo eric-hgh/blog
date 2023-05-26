@@ -1,5 +1,13 @@
 export default [
   {
+    text: 'VitePress',
+    collapsed: true,
+    items: [
+      { text: 'VitePress', link: '/projects/VitePress/VitePress' },
+      { text: 'VitePress-Algolia', link: '/projects/VitePress/VitePress-Algolia' },
+    ]
+  },
+  {
     text: 'COVID-19',
     collapsed: true,
     items: [

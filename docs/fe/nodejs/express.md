@@ -266,7 +266,7 @@ app.use(express.urlencoded({ extended: false }))
 - `Access-Control-Allow-Origin`：制定了允许访问资源的外域 URL
 
 ```js
-res.setHeader('Access-Control-Allow-Origin', 'http://bruceblog.io')
+res.setHeader('Access-Control-Allow-Origin', 'http://Ericblog.io')
 res.setHeader('Access-Control-Allow-Origin', '*')
 ```
 

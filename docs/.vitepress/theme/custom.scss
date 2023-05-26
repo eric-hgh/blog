@@ -6,6 +6,14 @@ $length--24: 24px;
 $length--16: 16px;
 $myWidth: calc(var(--vp-sidebar-width) + $length--48);
 
+
+:root {
+  --vp-c-brand: var(--vp-c-yellow-light);
+  --vp-c-brand-light: var(--vp-c-yellow-light);
+  --vp-c-brand-lighter: var(--vp-c-yellow-lighter);
+  --vp-c-brand-dark: var(--vp-c-yellow-dark);
+  --vp-c-brand-darker: var(--vp-c-yellow-darker);
+}
 .Layout {
   .vp-doc h2 {
     margin-top: $length--24;
@@ -157,4 +165,61 @@ $myWidth: calc(var(--vp-sidebar-width) + $length--48);
       border: 1px solid var(--vp-c-green-dark);
     }
   }
+}
+
+.container .image-container{
+  transform: translate(0px, 0px);
+}
+.container .main .text{
+ padding-top: 12px;
+ font-size: 40px;
+}
+
+.container .actions {
+  padding-top: 12px;
+}
+
+
+.image-container .image-src{
+  left: 50%;
+  right: auto;
+}
+@keyframes float {
+  0% {
+    transform: translate(-50%, -45%);
+  }
+
+  50% {
+    transform: translate(-50%, -55%);
+  }
+
+  100% {
+    transform: translate(-50%, -45%);
+  }
+}
+
+@media (min-width: 960px){
+
+  .image-container .image-src{
+    left: auto;
+    right: 0;
+    animation:float 10s infinite ease-in-out;
+  }
+  
+  
+  
+  @keyframes float {
+    0% {
+      transform: translate(0%, -45%);
+    }
+  
+    50% {
+      transform: translate(0%, -55%);
+    }
+  
+    100% {
+      transform: translate(0%, -45%);
+    }
+  }
+  
 }

@@ -426,7 +426,7 @@ export default [
       {
         icon: 'https://www.logosc.cn/img/logo-icons/logosc.svg?v=1',
         title: '标小智',
-        desc: '智能 LOGO 设计生成器，BruceBlog 的 logo 在此生成',
+        desc: '智能 LOGO 设计生成器，Ericblog 的 logo 在此生成',
         link: 'https://www.logosc.cn/'
       },
       {
@@ -490,7 +490,7 @@ export default [
       {
         icon: 'https://docsify.js.org/_media/favicon.ico',
         title: 'docsify',
-        desc: '一个神器的文档生成器',
+        desc: '一个神奇的文档生成器',
         link: 'https://docsify.js.org/#/'
       },
     ]

@@ -17,10 +17,7 @@
 [简书](https://www.jianshu.com/){link=card}
 [飞书](https://www.feishu.cn/){link=card}
 [石墨文档](https://shimo.im/){link=card}
-[微信读书](https://weread.qq.com/){link=card}
-[百度号码平台](https://haoma.baidu.com/){link=card}
-[百度翻译](https://fanyi.baidu.com/){link=card}
-[百度一下](https://www.baidu.com/){link=card}
+
 
 ## 我爱项目
 

@@ -1,8 +1,8 @@
 export default [
-  {
-    text: '周录记',
-    link: '/magazine/weekly2023'
-  },
+  // {
+  //   text: '踩坑记录',
+  //   link: '/pit/weekly2023'
+  // },
   {
     text: '资源集中营',
     link: '/resources/navigation/nav'
@@ -43,8 +43,12 @@ export default [
     ]
   },
   {
-    text: '计算机基础',
-    link: '/cs/network'
+    text: '项目实践',
+    items: [
+      { text: 'VitePress', link: '/projects/VitePress/VitePress' },
+      { text: 'COVID-19', link: '/projects/covid19/headline' },
+      { text: 'Echarts', link: '/projects/echarts/headline' },
+    ]
   },
   {
     text: '知也无涯',
