@@ -10,7 +10,7 @@ cd docs/.vitepress/dist
 # 提交代码
 git init
 git add -A
-git commit -m 'feat: Ericblog deploy'
+git commit -m '更新内容'
 
 # 如果部署到 https://<USERNAME>.github.io
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master

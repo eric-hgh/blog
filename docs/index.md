@@ -29,7 +29,7 @@ features:
     details: 项目实践过程中的记录
     link: /projects/VitePress/VitePress
   - icon: 💡
-    title: 知也无涯
+    title: 
     details: 面试题、资源导航...
     link: /lang/python/crawler
 ---

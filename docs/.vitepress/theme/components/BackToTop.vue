@@ -49,8 +49,8 @@ export default {
 
 <style lang="scss" scoped>
 #back_to_top {
-  border-left: 4px solid var(--vp-c-green);
-  border-top: 4px solid var(--vp-c-green);
+  border-left: 4px solid var(--vp-c-yellow);
+  border-top: 4px solid var(--vp-c-yellow);
   width: 22px;
   height: 22px;
   position: fixed;

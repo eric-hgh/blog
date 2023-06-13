@@ -4,7 +4,7 @@ import DefaultTheme from 'vitepress/theme'
 import TotalVisitors from './components/TotalVisitors.vue'
 import Copyright from './components/Copyright.vue'
 import BackToTop from './components/BackToTop.vue'
-import EssayLink from '../../components/EssayLink.vue'
+import EssayLink from '../../components/EssayLink/index.vue'
 import './custom.scss'
 
 export default {

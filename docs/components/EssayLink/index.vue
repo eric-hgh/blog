@@ -4,7 +4,7 @@
 <template></template>
 
 <script>
-import cardFun from '../utils/index';
+import cardFun from './index';
 import { watch } from 'vue';
 import { useRoute } from 'vitepress'
 
