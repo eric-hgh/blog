@@ -25,19 +25,12 @@ export default [
         ]
       },
       {
-        text: '玩意儿',
+        text: '拓展',
         items: [
           { text: 'Nodejs', link: '/fe/nodejs/node_basis' },
           { text: 'Git', link: '/fe/git/git' },
           { text: 'Webpack', link: '/fe/webpack/webpack_basis' },
           { text: 'Vscode', link: '/fe/ide/vscode' },
-        ]
-      },
-      {
-        text: '项目',
-        items: [
-          { text: 'COVID-19', link: '/projects/covid19/headline' },
-          { text: 'Echarts', link: '/projects/echarts/headline' },
         ]
       },
     ]
@@ -50,12 +43,12 @@ export default [
       { text: 'Echarts', link: '/projects/echarts/headline' },
     ]
   },
-  {
-    text: '知也无涯',
-    items: [
-      { text: 'Python', link: '/lang/python/crawler' }
-    ]
-  },
+  // {
+  //   text: '知也无涯',
+  //   items: [
+  //     { text: 'Python', link: '/lang/python/crawler' }
+  //   ]
+  // },
   {
     text: '高效搬砖',
     items: [

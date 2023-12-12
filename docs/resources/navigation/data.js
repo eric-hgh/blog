@@ -168,6 +168,12 @@ export default [
         link: 'https://router.vuejs.org/zh/'
       },
       {
+        icon: 'https://vueuse.org/favicon.svg',
+        title: 'VueUse',
+        desc: 'Vue官方工具库',
+        link: 'https://vueuse.org/'
+      },
+      {
         icon: 'https://element-plus.org/images/element-plus-logo-small.svg',
         title: 'Element Plus',
         desc: '基于 Vue 3 面向设计师和开发者的组件库',
@@ -296,6 +302,14 @@ export default [
         desc: 'koala 是一个前端预处理器语言图形编译工具',
         link: 'http://koala-app.com/'
       },
+      {
+        icon: 'https://www.tailwindcss.cn/_next/static/media/tailwindcss-mark.3c5441fc7a190fb1800d4a5c7f07ba4b1345a9c8.svg',
+        title: 'tailwindcss',
+        desc: '只需书写 HTML 代码，无需书写 CSS，即可快速构建美观的网站',
+        link: 'https://www.tailwindcss.cn/'
+      },
+
+      
     ]
   },
   {
